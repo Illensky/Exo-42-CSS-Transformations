@@ -1,0 +1,143 @@
+body {
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#div1 {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    border: 5px dotted red;
+    transform: rotate(-35deg);
+}
+
+p {
+    transform: rotate(90deg);
+}
+
+#div2 {
+    position: absolute;
+    top: 350px;
+    left: 40px;
+    width: 200px;
+    height: 200px;
+    border: 5px dashed rebeccapurple;
+    background-color: green;
+    transform: translate(-35px);
+}
+
+#divTemoin2 {
+    position: absolute;
+    top: 350px;
+    left: 40px;
+    width: 200px;
+    height: 200px;
+    border: 5px dashed green;
+}
+
+#div3 {
+    position: absolute;
+    top: 700px;
+    left: 150px;
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+    transform: scale(1.5);
+}
+
+#divTemoin3 {
+    position: absolute;
+    top: 700px;
+    left: 150px;
+    width: 300px;
+    height: 300px;
+    z-index: 99;
+    background-color: rebeccapurple;
+    border: 10px dotted #1f1f1f;
+}
+
+#div4 {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 1150px;
+    left: 150px;
+    background-color: rebeccapurple;
+    transform: skew(35deg);
+}
+
+@media screen and (max-width: 580px){
+
+    #div1 {
+        width: 300px;
+        height: 300px;
+        background-color: blue;
+        border: 5px dotted red;
+        transform: rotate(-35deg);
+    }
+
+    p {
+        font-size: 20px;
+        color: yellow;
+        display: block;
+        transform: rotate(90deg);
+        z-index: 99;
+        position: absolute;
+    }
+
+    #div2 {
+        position: absolute;
+        top: 350px;
+        left: 40px;
+        width: 200px;
+        height: 200px;
+        border: 5px dashed rebeccapurple;
+        background-color: green;
+        transform: translate(-35px);
+    }
+
+    #divTemoin2 {
+        position: absolute;
+        top: 350px;
+        left: 40px;
+        width: 200px;
+        height: 200px;
+        border: 5px dashed green;
+    }
+
+    #div3 {
+        position: absolute;
+        top: 700px;
+        width: 210px;
+        left: 55px;
+        height: 210px;
+        background-color: pink;
+        transform: scale(1.5);
+    }
+
+    #divTemoin3 {
+        position: absolute;
+        top: 700px;
+        width: 210px;
+        left: 55px;
+        height: 210px;
+        z-index: 99;
+        background-color: rebeccapurple;
+        border: 10px dotted #1f1f1f;
+    }
+
+    #div4 {
+        position: absolute;
+        height: 300px;
+        width: 100px;
+        top: 1150px;
+        left: 110px;
+        background-color: rebeccapurple;
+        transform: skew(35deg);
+    }
+}
